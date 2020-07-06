@@ -38,5 +38,16 @@
         "^1.0.0": "consumeStatusBar"
       }
     }
+  },
+  "providedServices": {
+    "platformioIDETerminal": {
+      "description": "PlatformIO IDE Terminal API",
+      "versions": {
+        "1.1.0": "providePlatformIOIDETerminal"
+      }
+    }
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.11.0"
   }
 }
